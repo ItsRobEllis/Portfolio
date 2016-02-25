@@ -25,16 +25,16 @@
                 </div>
                 <div class="header_module" id="header_navigation">
                     <div class="navigation">
-                        <a class="nav_anchor" href="#">About Me</a>
+                        <a class="nav_anchor" href="index.html">About Me</a>
                     </div>
                     <div class="navigation">
-                        <a class="nav_anchor" href="#">Blog</a>
+                        <a class="nav_anchor" href="blog.php">Blog</a>
                     </div>
                     <div class="navigation">
-                        <a class="nav_anchor" href="#">My Work</a>
+                        <a class="nav_anchor" href="work.html">My Work</a>
                     </div>
                     <div class="navigation">
-                        <a class="nav_anchor" href="#">Contact Me</a>
+                        <a class="nav_anchor" href="contact.php">Contact Me</a>
                     </div>
                 </div>
                 <noscript>
@@ -46,10 +46,10 @@
         </header>
         <div class="mobile_menu">
           <ul>
-            <a href=""><li>About Me</li></a>
-            <a href=""><li>My Work</li></a>
-            <a href=""><li>Blog</li></a>
-            <a href=""><li>Contact</li></a>
+            <a href="index.html"><li>About Me</li></a>
+            <a href="work.html"><li>My Work</li></a>
+            <a href="blog.php"><li>Blog</li></a>
+            <a href="contact.php"><li>Contact</li></a>
           </ul>
         </div>
         <div class="body_wrapper" id="about">
@@ -61,7 +61,7 @@
             </article>
         </div>
         <!--Twitter Integration-->
-        <a href="https://twitter.com/ItsRobboEllis"><div id="twitter_button"><img src="img/twit.png"/></div></a>
+        <a target="_blank" href="https://twitter.com/ItsRobboEllis"><div id="twitter_button"><img src="img/twit.png"/></div></a>
         <div id="twitter_wrapper">
           <a class="twitter-timeline"  href="https://twitter.com/ItsRobboEllis" data-widget-id="701786566818189312">Tweets by @ItsRobboEllis</a>
           <script>
