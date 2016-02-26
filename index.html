@@ -53,11 +53,14 @@
           </ul>
         </div>
         <div class="body_wrapper" id="about">
-            <h1>Header</h1>
+            <h1>Hello!</h1>
             <article>
                 <section>
-                    Body Text
+                    <h2>My name is Rob. I'm a <span id="changing_text"></span>!</h2>
+                    <p>I'm a student at Bournemouth University, currently in my first year studying Games Programming. My interests revolve around the same, programming, designing and creating video games, 3D models and websites.</p>
+                    <p>My hobbies involve the same things, mainly being technical hobbies such as programming, to more general ones such as archery and American football! My interest in computing began when I was given my first video games console around age 6. After that, computers and video games have been a massive interest in my life.</p>
                 </section>
+                <img id="profile_image" src="img/pending.png"></img>
             </article>
         </div>
         <!--Twitter Integration-->
@@ -74,18 +77,10 @@
               }(document,"script","twitter-wjs");
           </script>
         </div>
-        <!--Google Analytics-->
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-74255556-1', 'auto');
-          ga('send', 'pageview');
-        </script>
         <!--Importing jQuery for mobile menu-->
         <script src="js/jQuery.js"></script>
+        <script src="js/textreplace.js"></script>
+        <script src="js/google.js"></script>
         <script>
           $(document).ready(function(){
             $("#header_mobi").click(function(){

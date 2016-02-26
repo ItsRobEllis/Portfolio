@@ -11,7 +11,7 @@ a {
 body {
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
-    font-size: 12pt;
+    font-size: 14pt;
     background-image: url(../img/cartographer.png);
 }
 
@@ -33,14 +33,19 @@ img #header_logo {
 
 h1 {
     font-size: 32px;
+    line-height: 32px;
     padding-bottom: 0px;
     font-family: 'Martel Sans', sans-serif;
-    margin: 20 0 20 0;
+    margin: 30 0 0 0;
+}
+
+h2 {
+  font-weight: 100;
+  margin: 0;
 }
 
 .body_wrapper {
     max-width: 800px;
-    height: 500px;
     top: 100px;
     background-image: url(../img/gplaypattern.png);
     border-top: 5px solid #69D2E7;
@@ -52,6 +57,13 @@ h1 {
     margin: auto;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.body_wrapper section {
+  float: left;
+  max-width: 600px;
+  padding-right: 20px;
 }
 
 .header_module {
@@ -135,6 +147,11 @@ h1 {
     color: white;
 }
 
+#changing_text {
+  font-weight: normal;
+  color: #1c879c;
+}
+
 #header_wrapper {
     margin: 0 auto;
     height: 100%;
@@ -205,6 +222,11 @@ h1 {
           transition: top 1s ease 1s;
 }
 
+#profile_image {
+  width: 180px;
+  float: left;
+}
+
 #twitter_wrapper {
   width: 250px;
   height: 600px;
@@ -273,6 +295,11 @@ h1 {
 
   h1 {
     font-size: 25px;
+    margin: 10 0 0 0;
+  }
+
+  h2 {
+    font-size: 15px;
     margin: 0;
   }
 
