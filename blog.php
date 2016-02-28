@@ -53,10 +53,21 @@
           </ul>
         </div>
         <div class="body_wrapper" id="about">
-            <h1>Header</h1>
-            <article>
+            <h1>My Blog</h1>
+            <article class="blog_article">
+                <h2>How I got Google Analytics</h2>
                 <section>
-                    Body Text
+                    Part of creating a successful portfolio website is knowing how many people visit your webiste. For this, I used Google Analytics to record visits.
+                </section>
+                <video width="100%" controls>
+                  <source src="video/tut_google.mp4" type="video/mp4">
+                  Unfortunately, your browser can't play this video!
+                </video>
+            </article>
+            <article class="blog_article">
+                <h2>Why My Favourite Video Game Genre Is What It Is</h2>
+                <section>
+                    When it comes to video games, there are many genres, many different playstyles and audiences. Some video games are laid back and designed to be easy and straightforward, while others are consistently challenging and require full concentration. Akin to this, my favourite genre of video game is strategy. Being in an overlooking position and commanding soldiers, ships and other things around, for me, is a treat. Game such as the Total War and the Sins of a Solar Empire series truly catch my eye, and give me exactly what I like to see in a video game.0
                 </section>
             </article>
         </div>

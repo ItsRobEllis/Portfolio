@@ -1,0 +1,159 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/cartographer.png);
+}
+
+#Wrapper {
+    width: 960px;
+    height: 768px;
+    margin: 0 auto;
+
+    background: white;
+    border-top: 3px solid #23b54e;
+    border-bottom: 3px solid #23b54e;
+    border-radius: 18px;
+}
+
+#homepage_image {
+    width: 940px;
+}
+
+#wrap-body {
+    top: 90px;
+    height: 650px;
+    width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+}
+
+header{
+	width: inherit;
+	height: 75px;
+    position: absolute;
+}
+
+footer {
+    width: 940px;
+    height: 40px;
+    top: 740px;
+    position: absolute;
+    border-top: 1px solid black;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+input{
+    height: 100%;
+    width: 100%;
+
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+textarea {
+    resize: none;
+    font-size: 24px;
+    width: 100%;
+    height: 300px;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.submit {
+    width: 100%;
+    height: 75px;
+    background-color: #23b54e;
+    color: white;
+    border: none;
+    font-size: 20px;
+
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+    transition:All 0.5s ease;
+    -webkit-transition:All 0.5s ease;
+    -moz-transition:All 0.5s ease;
+    -o-transition:All 0.5s ease;
+}
+
+.submit:hover {
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+
+    border-radius: 15px;
+
+    transform: scale(1.01) skew(1deg) translate(0px);
+    -webkit-transform: scale(1.01) skew(1deg) translate(0px);
+    -moz-transform: scale(1.01) skew(1deg) translate(0px);
+    -o-transform:scale(1.01) skew(1deg) translate(0px);
+    -ms-transform: scale(1.01) skew(1deg) translate(0px);
+}
+
+#Menu {
+    max-height: 75px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    border-bottom: 1px solid black;
+}
+
+.Menu-Element {
+    width: 192px;
+    height: 75px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 75px;
+}
+
+#Logo {
+    height: 75px;
+}
+
+.Button {
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+    transition:All 0.5s ease;
+    -webkit-transition:All 0.5s ease;
+    -moz-transition:All 0.5s ease;
+    -o-transition:All 0.5s ease;
+}
+
+.Button:hover {
+    background-color: #23b54e; /* Background color for hover effect*/
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+
+    border-radius: 15px;
+
+    transform: scale(1.2) skew(1deg) translate(0px);
+    -webkit-transform: scale(1.2) skew(1deg) translate(0px);
+    -moz-transform: scale(1.2) skew(1deg) translate(0px);
+    -o-transform:scale(1.2) skew(1deg) translate(0px);
+    -ms-transform: scale(1.2) skew(1deg) translate(0px);
+}
+
+.Article1{display: inline}
+.Article2{display: none;}
+.Article3{display: none;}
+.Article4{display: none;}

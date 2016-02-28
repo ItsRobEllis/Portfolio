@@ -1,3 +1,7 @@
+<?php
+  $include_once("Mail.php");
+
+?>
 <html>
     <head>
         <title>Rob Ellis | Home</title>
@@ -53,10 +57,39 @@
           </ul>
         </div>
         <div class="body_wrapper" id="about">
-            <h1>Header</h1>
+            <h1>Contact Me</h1>
             <article>
                 <section>
-                    Body Text
+                    Feel free to pop me a message at any time!
+                    <p class="mobi_contact">
+                      <span class="heavy">My Email: </span><a href="mailto:rob@itsrobellis.co.uk">rob@itsrobellis.co.uk</a><br/>
+                      <span class="heavy">My CV: </span><a style="color: blue;" href="cdn/cv.docx">Download CV</a><br/>
+                    </p>
+                    <table width="100%">
+                      <tr>
+                        <td id="contact_info">
+                          <span class="heavy">My Email: </span><a href="mailto:rob@itsrobellis.co.uk">rob@itsrobellis.co.uk</a><br/>
+                          <span class="heavy">My CV: </span><a style="color: blue;" href="cdn/cv.docx">Download CV</a><br/>
+
+                        </td>
+                        <td width="70%">
+                          <form id="contact" action="" method="post">
+                          <fieldset>
+                              <input name="message_name" placeholder="Your Name" type="text" tabindex="1" required autofocus>
+                          </fieldset>
+                          <fieldset>
+                              <input name="message_email" placeholder="Your Email" type="email" tabindex="2" required autofocus>
+                          </fieldset>
+                          <fieldset>
+                              <textarea name="message_body" placeholder="Your Comments" type="comments" required autofocus></textarea>
+                          </fieldset>
+                          <fieldset>
+                              <button name="send" type="submit" class="submit" value="">Send</button>
+                          </fieldset>
+                      </form>
+                        </td>
+                      </tr>
+                    </table>
                 </section>
             </article>
         </div>
