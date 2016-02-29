@@ -360,10 +360,6 @@ p.mobi_contact {
     display: none;
   }
 
-  #mobi_contact {
-    display: block;
-  }
-
   #header_logo {
     height: 50px;
   }
@@ -374,6 +370,10 @@ p.mobi_contact {
 
   #header_navigation {
     display: none;
+  }
+
+  #header_mobi {
+    display: block;
   }
 
   #profile_image {
