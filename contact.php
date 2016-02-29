@@ -2,6 +2,7 @@
   $include_once("Mail.php");
 
 ?>
+<!DOCTYPE html>
 <html>
     <head>
         <title>Rob Ellis | Home</title>

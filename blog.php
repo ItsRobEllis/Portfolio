@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Rob Ellis | Home</title>
@@ -67,7 +68,7 @@
             <article class="blog_article">
                 <h2>Why My Favourite Video Game Genre Is What It Is</h2>
                 <section>
-                    When it comes to video games, there are many genres, many different playstyles and audiences. Some video games are laid back and designed to be easy and straightforward, while others are consistently challenging and require full concentration. Akin to this, my favourite genre of video game is strategy. Being in an overlooking position and commanding soldiers, ships and other things around, for me, is a treat. Game such as the Total War and the Sins of a Solar Empire series truly catch my eye, and give me exactly what I like to see in a video game.0
+                    When it comes to video games, there are many genres, many different playstyles and audiences. Some video games are laid back and designed to be easy and straightforward, while others are consistently challenging and require full concentration. Akin to this, my favourite genre of video game is strategy. Being in an overlooking position and commanding soldiers, ships and other things around, for me, is a treat. Game such as the Total War and the Sins of a Solar Empire series truly catch my eye, and give me exactly what I like to see in a video game.
                 </section>
             </article>
         </div>

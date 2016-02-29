@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /hci/
+Disallow: /img/
+Disallow: /js/
+Disallow: /cdn/
+Disallow: /video/
+Disallow: Readme.md
+Allow: /
+Sitemap: http://itsrobellis.co.uk/sitemap.xml 
