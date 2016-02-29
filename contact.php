@@ -1,7 +1,3 @@
-<?php
-  $include_once("Mail.php");
-
-?>
 <!DOCTYPE html>
 <html>
     <head>
